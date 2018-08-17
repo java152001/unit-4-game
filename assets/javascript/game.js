@@ -50,7 +50,7 @@ function scoreCheck() {
     else if (playerTotal > randomTotal) {
         reset();
         losses++;
-        $("#resultDeclare").html("<h1>Winner!</h1>");
+        $("#resultDeclare").html("<h1>Loser!</h1>");
         $("#record").html("<h2>Wins: " + wins + " Losses: " + losses + "</h2>");
     }
 }
